@@ -149,13 +149,13 @@ Funciona en:
 git clone https://github.com/R0yalCode/Ordenacion-en-Java.git
 
 ###  2. Navegar al proyecto
-cd REPO
+``` cd REPO  ```
 
 ###  3. Compilar el proyecto
-javac -d bin src/ed/u2/sorting/**/*.java
+``` javac -d bin src/ed/u2/sorting/**/*.java ```
 
 ###  4. Ejecutar el programa
-java -cp bin ed.u2.sorting.presentation.SortingMenu
+``` java -cp bin ed.u2.sorting.presentation.SortingMenu ```
 
 ---
 
@@ -254,11 +254,25 @@ Se manejan mediante clases personalizadas en `exception/`.
 
 ##  12. Capturas de Ejecución 
 
+- Menu principal
+<img width="361" height="245" alt="image" src="https://github.com/user-attachments/assets/9aa000ff-0379-4540-8517-96efd4def46a" />
 
-* 
-* 
-* 
-* 
+
+- Datos ingresados manualmente
+<img width="564" height="600" alt="image" src="https://github.com/user-attachments/assets/a127a605-0463-4f8e-8977-a2f3adf902b7" />
+
+
+- Datos cargados desde un .txt
+<img width="1066" height="342" alt="image" src="https://github.com/user-attachments/assets/84ec2c0c-0ea2-481c-8a73-52ead4c99006" />
+
+
+- Historial de ordenamiento
+<img width="1459" height="411" alt="image" src="https://github.com/user-attachments/assets/3c245590-f919-4aeb-b0cf-eae81b355b97" />
+
+
+- Exportar historial
+<img width="498" height="286" alt="image" src="https://github.com/user-attachments/assets/9bdba58a-d951-469e-94b1-16d61c1bd140" />
+<img width="1733" height="261" alt="image" src="https://github.com/user-attachments/assets/515306ff-dfd8-443b-ada9-43d50655d964" />
 
 ---
 
