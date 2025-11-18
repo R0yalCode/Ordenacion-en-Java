@@ -146,7 +146,7 @@ Funciona en:
 ##  6. Cómo clonar y ejecutar el proyecto
 
 ###  1. Clonar el repositorio
-git clone https://github.com/R0yalCode/Ordenacion-en-Java.git
+```git clone https://github.com/R0yalCode/Ordenacion-en-Java.git ```
 
 ###  2. Navegar al proyecto
 ``` cd REPO  ```
