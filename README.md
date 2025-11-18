@@ -14,13 +14,13 @@ Este proyecto implementa y compara tres algoritmos clásicos de ordenación:
 
 Como parte del Taller 5 de la Unidad 2, se desarrolló una **aplicación de consola** con enfoque profesional que permite:
 
-1.  Ordenar datos ingresados **manualmente**.
-2.  Cargar valores desde un archivo **`.txt`**.
-3.  Usar **datasets oficiales** del taller.
-4.  Mostrar **trazas visuales tipo VisuAlgo** mediante barras ASCII, colores ANSI y animación.
-5.  Seleccionar distintos algoritmos desde un **menú interactivo**.
-6.  Registrar **historial de ejecuciones** (método, tiempo, swaps, movimientos).
-7.  Mantener una **estructura por capas** (`domain`, `model`, `service`, `structure`, `exception`, `presentation`).
+1.  Ordenar datos ingresados manualmente.
+2.  Cargar valores desde un archivo `.txt`.
+3.  Usar datasets oficiales del taller.
+4.  Mostrar trazas visuales tipo VisuAlgo mediante barras ASCII, colores ANSI y animación.
+5.  Seleccionar distintos algoritmos desde un menú interactivo.
+6.  Registrar historial de ejecuciones (método, tiempo, swaps, movimientos).
+7.  Mantener una estructura por capas (`domain`, `model`, `service`, `structure`, `exception`, `presentation`).
 
 Este `README` documenta la arquitectura, el funcionamiento y las instrucciones necesarias para ejecutar, probar y comprender el proyecto.
 
@@ -28,7 +28,7 @@ Este `README` documenta la arquitectura, el funcionamiento y las instrucciones n
 
 ##  2. Arquitectura del Proyecto
 
-El proyecto sigue una **arquitectura por capas**, organizada para facilitar mantenibilidad, escalabilidad y claridad del código.
+El proyecto sigue una arquitectura por capas, organizada para facilitar mantenibilidad, escalabilidad y claridad del código.
 ```
 src/
 └── ed/u2/sorting/
@@ -58,40 +58,39 @@ src/
 
 ###  Insertion Sort
 
-* **Estable**
-* Ideal para datos **casi ordenados**
+* Estable
+* Ideal para datos casi ordenados
 * Muy eficiente en arreglos pequeños
 * Traza visual clara
 * Ordena insertando `a[i]` en el subarreglo previo
 
 ###  Selection Sort
 
-* **NO estable**
+* NO estable
 * Realiza muy pocos swaps (a lo sumo $n - 1$)
-* Busca explícitamente el **mínimo** en $i..n-1$
+* Busca explícitamente el mínimo en $i..n-1$
 * Útil cuando el intercambio es costoso
 
-###  Bubble Sort (Optimizado)
+###  Bubble Sort
 
-* **Estable**
+* Estable
 * Muy visual y didáctico
 * Recorre elementos adyacentes y realiza `swap` si están mal ordenados
-* Implementa **corte temprano** para mejorar rendimiento
+* Implementa corte temprano para mejorar rendimiento
 * Excelente para ver animaciones paso a paso
 
 ---
 
-##  4. Visualización Estilo VisuAlgo (ASCII + colores + delay)
+##  4. Visualización Estilo VisuAlgo
 
 El proyecto incluye:
-
 * Barras horizontales estilo VisuAlgo
 * Colores ANSI:
-    * Comparaciones → **Amarillo**
-    * Swaps → **Rojo**
-    * Elemento fijo → **Cyan**
-    * Arreglo final → **Verde**
-* Delay configurable (**150 ms** por paso)
+    * Comparaciones → Amarillo
+    * Swaps → Rojo
+    * Elemento fijo → Cyan
+    * Arreglo final → Verde
+* Delay configurable (150 ms por paso)
 
 ### Ejemplo:
 
@@ -110,7 +109,7 @@ El proyecto incluye:
 
 ###  Software necesario
 
-* **Java JDK 21 o superior**
+* Java JDK 21 o superior
     * (Recomendado: JDK 25 OpenJDK)
 * Cualquier IDE Java:
     * IntelliJ IDEA
@@ -162,7 +161,7 @@ Al ejecutar el proyecto, aparece un menú:
 0. Salir
 
 
-###  Puedes:
+###  Se puede:
 
 *  Elegir método de ordenación
 *  Escribir los números separados por espacios
@@ -208,10 +207,10 @@ El sistema incluye los datasets oficiales:
 Cada ejecución registra:
 
 * Algoritmo usado
-* Tiempo total en **milisegundos**
-* **Comparaciones**
-* **Swaps**
-* **Movimientos**
+* Tiempo total en milisegundos
+* Comparaciones
+* Swaps
+* Movimientos
 * Arreglo original
 * Arreglo final
 * Fecha y hora
@@ -250,7 +249,7 @@ Se manejan mediante clases personalizadas en `exception/`.
 
 ##  13. Conclusiones
 
-Este proyecto permite **comprender profundamente los algoritmos de ordenación** mediante:
+Este proyecto nos ayudó a comprender los algoritmos de ordenación mediante:
 
 * Implementación estructurada
 * Visualización interactiva
