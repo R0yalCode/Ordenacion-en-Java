@@ -12,7 +12,7 @@ import java.util.List;
  * Operaciones de archivo: lectura de .txt con números (espacio o línea por número).
  * Lanza SortingException en caso de entrada inválida.
  *
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class FileUtils {

@@ -7,7 +7,7 @@ import ed.u2.sorting.structure.SortingUtils;
 /**
  * Selection Sort con trazas visuales y conteo de swaps.
  *
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class SelectionSort implements SortingService {

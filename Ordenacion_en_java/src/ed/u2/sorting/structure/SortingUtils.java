@@ -4,7 +4,7 @@ import ed.u2.sorting.exception.SortingException;
 
 /**
  * Utilidades genéricas para ordenación: swap, clone, isSorted.
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class SortingUtils {

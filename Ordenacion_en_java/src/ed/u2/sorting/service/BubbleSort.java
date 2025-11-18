@@ -7,7 +7,7 @@ import ed.u2.sorting.structure.SortingUtils;
 /**
  * Bubble Sort con corte temprano, trazas visuales y conteo de swaps.
  *
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class BubbleSort implements SortingService {

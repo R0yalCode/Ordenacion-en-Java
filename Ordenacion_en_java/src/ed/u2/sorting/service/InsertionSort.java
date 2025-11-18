@@ -7,7 +7,7 @@ import ed.u2.sorting.structure.SortingUtils;
 /**
  * Insertion Sort con trazas visuales.
  *
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class InsertionSort implements SortingService {

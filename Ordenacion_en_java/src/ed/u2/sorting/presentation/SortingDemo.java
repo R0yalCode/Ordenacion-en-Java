@@ -10,7 +10,7 @@ import ed.u2.sorting.structure.SortingUtils;
  * Demo rápido para ejecutar los datasets A..E con trazas apagadas.
  * Útil para pruebas unitarias / comprobación automática.
  *
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class SortingDemo {

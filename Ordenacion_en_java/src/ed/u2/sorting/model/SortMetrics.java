@@ -2,7 +2,7 @@ package ed.u2.sorting.model;
 
 /**
  * Métricas registradas durante la ejecución de un algoritmo de ordenación.
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class SortMetrics {

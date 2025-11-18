@@ -2,7 +2,7 @@ package ed.u2.sorting.domain;
 
 /**
  * Datasets del taller y utilidades para casos borde.
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class Dataset {

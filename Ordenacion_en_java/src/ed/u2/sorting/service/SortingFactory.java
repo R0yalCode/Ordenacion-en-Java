@@ -2,7 +2,7 @@ package ed.u2.sorting.service;
 
 /**
  * Fabrica simple para obtener instancias por nombre.
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class SortingFactory {

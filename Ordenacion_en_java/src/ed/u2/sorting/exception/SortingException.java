@@ -2,7 +2,7 @@ package ed.u2.sorting.exception;
 
 /**
  * Excepción del módulo de ordenación.
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public class SortingException extends RuntimeException {

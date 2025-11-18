@@ -8,7 +8,7 @@ import java.util.List;
  * Gestiona el historial de ordenamientos en memoria (puede exportarse).
  * Simple y thread-unsafe (suficiente para práctica/CLI).
  *
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class HistoryManager {

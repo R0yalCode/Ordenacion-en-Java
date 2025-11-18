@@ -5,11 +5,11 @@ import java.util.Locale;
 /**
  * Visualizador por consola (barras horizontales), con colores ANSI y delay.
  *
- * Visual B: barras horizontales:
+ * Visual por barras horizontales:
  * 8: ********
  * 3: ***
  *
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class ConsoleVisualizer {

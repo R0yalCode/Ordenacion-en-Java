@@ -5,7 +5,7 @@ import ed.u2.sorting.model.SortMetrics;
 /**
  * Contrato para algoritmos de ordenación.
  *
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public interface SortingService {

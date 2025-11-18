@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 /**
  * Resultado de una ejecución de ordenación (para historial y export).
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class SortResult {

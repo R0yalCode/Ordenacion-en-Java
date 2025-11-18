@@ -17,7 +17,7 @@ import java.util.Scanner;
  * Menú interactivo por consola para elegir algoritmo, ingresar números o cargar .txt,
  * ver historial y exportar. Estilo CLI profesional con opciones.
  *
- * @author (por completar)
+ * @author Royel Jima, Darwin Jimbo
  * @version 1.0
  */
 public final class SortingMenu {
