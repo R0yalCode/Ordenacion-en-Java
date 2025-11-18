@@ -1,0 +1,1 @@
+2025-11-17T18:29:31.312889800 | BubbleSort | original=[8, 3, 6, 3, 9] | sorted=[3, 3, 6, 8, 9] | swaps=4, moves=0 | 9039 ms
