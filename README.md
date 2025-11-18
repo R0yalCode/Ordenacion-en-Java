@@ -32,13 +32,27 @@ El proyecto sigue una **arquitectura por capas**, organizada para facilitar mant
 ```
 src/
 └── ed/u2/sorting/
-    ├── model/          → Clases de métricas, resultados e historial
-    ├── domain/         → Representación de datasets y listas de números
-    ├── service/        → Implementación de algoritmos de ordenación
-    ├── structure/      → Utilidades (swap, print), visualización ASCII, lectura de archivos
-    ├── presentation/   → Menú principal, interfaz de usuario
-    ├── exception/      → Excepciones personalizadas para validaciones
-
+   ├── model/         
+   │ ├── HistoryManager.java
+   │ ├── SortMetrics.java
+   │ └── SortResult.java
+   ├── domain/           
+   │ └── Dataset.java
+   ├── service/         
+   │ ├── SortingService.java
+   │ ├── SortingFactory.java
+   │ ├── SelectionSort.java
+   │ ├── InsertionSort.java
+   │ └── BubbleSort.java
+   ├── structure/        
+   │ ├── SortingUtils.java
+   │ ├── FileUtils.java
+   │ └── ConsoleVisualizer.java
+   ├── presentation/     
+   │ ├── SortingDemo.java
+   │ └── SortingMenu.java
+   └── exception/        
+   └── SortingException.java
 ```
 
 ###  Descripción breve de cada capa
