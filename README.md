@@ -4,6 +4,10 @@
 
 ---
 
+Link del taller:
+## [Taller 5]()
+---
+
 ## 1. Introducción
 
 Este proyecto implementa y compara tres algoritmos clásicos de ordenación:
